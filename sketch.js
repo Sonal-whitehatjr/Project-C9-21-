@@ -86,7 +86,7 @@ function draw(){
       ground.x = ground.width/2;
     }
   console.log(mario.y);
-    if(keyDown("UP_ARROW") && mario.y>325){ 
+    if(keyDown("UP_ARROW") && mario.y>310){ 
       mario.velocityY = -20;
       jumpSound.play();
     }
